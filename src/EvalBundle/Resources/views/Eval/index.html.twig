@@ -1,0 +1,13 @@
+{% extends ('base.html.twig') %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+
+    <h1>hello!</h1>
+
+   <a href="{{ path('album_index') }}">Nos albums!</a>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+eval_album:
+    resource: "@EvalBundle/Resources/config/routing/album.yml"
+    prefix:   /album
+
+eval_homepage:
+    path:     /
+    defaults: { _controller: EvalBundle:Eval:index }
